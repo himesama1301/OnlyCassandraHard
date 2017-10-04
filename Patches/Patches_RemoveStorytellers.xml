@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/StorytellerDefs/StorytellerDef[defName="Phoebe"]</xpath>
+  </Operation>
+  
+  <Operation Class="PatchOperationRemove">
+    <xpath>/StorytellerDefs/StorytellerDef[defName="Randy"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/StorytellerDefs/StorytellerDef[defName="Tutor"]</xpath>
+  </Operation>
+
+</Patch>
